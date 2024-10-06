@@ -2,20 +2,23 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>Destructurizator</title>
-    <link rel="stylesheet" href="./main.css">
+    <link href="./main.css" rel="stylesheet">
 </head>
 <body>
 
-    <div id="effect-wrapper">
-        <img id="effect-img" src="./koronavirus.png" alt="your image here">
-    </div>
-    <button data-effect type="button" data-target="#effect-wrapper">Click</button>
+<div id="effect-wrapper">
+    <img alt="your image here" id="effect-img" src="./koronavirus.png">
+</div>
+<button class="button" data-effect data-target="#effect-wrapper" type="button">
+    <img alt="thanos hand" class="thanos-hand" src="./thanos-hand.png">
+    Click
+</button>
 
-    <script src="./chance.min.js"></script>
-    <script src="./script.js"></script>
+<script src="./chance.min.js"></script>
+<script src="./script.js"></script>
 </body>
 </html>
